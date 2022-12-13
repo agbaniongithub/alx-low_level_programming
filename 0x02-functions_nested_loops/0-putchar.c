@@ -2,7 +2,7 @@
 
 /**
  * main - Write a program that prints _putchar, followed by a new line.
- * return: return 0
+ * Return - Always return 0.
  */
 int main(void)
 {
