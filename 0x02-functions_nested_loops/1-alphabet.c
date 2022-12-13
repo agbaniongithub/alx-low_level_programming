@@ -10,8 +10,8 @@ char alphabet = 'a';
 while (alphabet <= 'z')
 {
 _putchar(alphabet);
-c++;
+alphabet++;
 }
-_putchar('\n')
+_putchar('\n');
 return (0);
 }
