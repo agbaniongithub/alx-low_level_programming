@@ -1,16 +1,17 @@
 #include "main.h"
 /**
- * main - check the code
+ * print_alphabet - entry point
  *
  * Return: Always 0.
  */
-int main(void)
+void print_alphabet(void)
 {
-char alphabet;
-for (alphabet = 'a'; alphabet <= 'z' ; alphabet++)
+char alphabet = 'a';
+while (alphabet <= 'z')
 {
-putchar(alphabet);
-putchar('\n');
+_putchar(alphabet);
+c++;
 }
+_putchar('\n')
 return (0);
 }
