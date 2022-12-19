@@ -12,5 +12,5 @@ for (; *s != '\0'; s++)
 {
 	len += 1;
 }
-return (count);
+return (len);
 }
